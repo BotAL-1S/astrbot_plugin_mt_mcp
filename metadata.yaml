@@ -4,7 +4,7 @@ desc: 通过 MT 管理器 MCP 服务，在聊天中读取、搜索手机文件�
 short_desc: 读取/搜索手机文件并发送到聊天（需 MT MCP）
 version: 1.1.1
 author: Little AL-1S
-repo: ""
+repo: https://github.com/BotAL-1S/astrbot_plugin_mt_mcp
 astrbot_version: ">=4.16,<5"
 support_platforms:
   - aiocqhttp
