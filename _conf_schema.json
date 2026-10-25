@@ -1,0 +1,17 @@
+{
+  "mcp_url": {
+    "description": "MT MCP 服务地址（从 MT 中复制的完整地址，含末尾 /mcp）",
+    "type": "string",
+    "default": "http://127.0.0.1:8787/mcp"
+  },
+  "mcp_token": {
+    "description": "MT 开启 Bearer 认证时的令牌（未开启留空）",
+    "type": "string",
+    "default": ""
+  },
+  "home_dir": {
+    "description": "MT 的 Home 目录（相对路径以此为起点）",
+    "type": "string",
+    "default": "/storage/emulated/0/MT2/mcp"
+  }
+}
