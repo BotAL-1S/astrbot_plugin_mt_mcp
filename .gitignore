@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 插件运行时数据（本地缓存，不应提交）
+data/
+*.db
+*.sqlite3
+
+# 打包产物
+*.zip
+dist/
+build/
+
+# 编辑器/系统
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*~
+
+# 本地配置（可能含 token/密钥）
+.env
+*.local
